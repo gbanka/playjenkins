@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: pop.local:5000/justme/myweb:1
+      - image: pop.local:5000/justme/myweb:latest
         imagePullPolicy: Always
         name: myweb
 
